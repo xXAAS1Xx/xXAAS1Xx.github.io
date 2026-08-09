@@ -1,3 +1,15 @@
-title: Armaan Shamsaasef's Website
-description: Welcome to my new website
+title: "Armaan Shamsaasef | SDSU Management Information Systems & Computer Science Portfolio"
+description: "Portfolio of Armaan - MIS Major & CS Minor at SDSU"
 theme: minima
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"

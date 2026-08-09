@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<article class="project-detail section">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}#projects" class="back-link">&larr; Back to Portfolio</a>
+    
+    <header class="project-header">
+      <span class="project-tag">{{ page.category }}</span>
+      <h1>{{ page.title }}</h1>
+      <p class="project-subtitle">{{ page.description }}</p>
+      
+      <div class="project-meta">
+        {% if page.tech_stack %}
+          <div class="meta-item">
+            <div class="tech-tags">
+              {% for tech in page.tech_stack %}
+                <span class="tech-pill">{{ tech }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+    </header>
+
+    <div class="project-body">
+      {{ content }}
+    </div>
+  </div>
+</article>
