@@ -17,7 +17,7 @@ title: "Armaan Shamsaasef | San Diego State University | MIS Major & CS Minor"
 
     <div class="hero-buttons">
       <a href="#projects" class="btn-primary">View Projects</a>
-      <a href="#skills" class="btn-secondary">Technical Skills</a>
+      <a href="#skills" class="btn-primary">Technical Skills</a>
     </div>
   </div>
 </header>
