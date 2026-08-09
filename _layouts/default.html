@@ -11,11 +11,15 @@
 
   <nav class="navbar">
     <div class="nav-container">
-      <a href="{{ '/' | relative_url }}" class="logo"><span class="scarlet">SDSU</span> // MIS & CS</a>
+      <a href="{{ '/' | relative_url }}" class="logo">
+        <img src="{{ '/assets/images/sdsu-pennant.png' | relative_url }}" alt="SDSU Logo" class="nav-sdsu-logo">
+        <span class="scarlet">Armaan Shamsaasef</span>
+      </a>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="{{ '/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/skills/' | relative_url }}">Skills</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+        <li><a href="{{ '/certifications/' | relative_url }}">Certifications</a></li>
       </ul>
     </div>
   </nav>
@@ -26,11 +30,9 @@
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; {{ 'now' | date: "%Y" }} Armaan — San Diego State University</p>
+      <p>&copy; {{ 'now' | date: "%Y" }} Armaan Shamsaasef</p>
     </div>
   </footer>
 
 </body>
 </html>
-
-
