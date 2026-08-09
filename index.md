@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Armaan Shamsaasef | SDSU MIS & CS"
+title: "Armaan Shamsaasef's Official Website"
 ---
 
 <header class="hero">
   <div class="hero-content profile-hero">
     <div class="profile-frame">
-      <img src="assets/images/profile.png" alt="Armaan Shamsaasef" class="profile-img">
+      <img src="/Users/armaanshamsaasef/Desktop/ArmaanShamsaasef-Website/xXAAS1Xx.github.io/assets/profile.png" alt="Armaan Shamsaasef" class="profile-img">
     </div>
     <div class="hero-text">
       <span class="badge">San Diego State University Student</span>
