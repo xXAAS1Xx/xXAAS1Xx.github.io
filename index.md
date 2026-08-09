@@ -6,7 +6,7 @@ title: "Armaan Shamsaasef's Official Website"
 <header class="hero">
   <div class="hero-content profile-hero">
     <div class="profile-frame">
-      <img src="ArmaanShamsaasef-Website/xXAAS1Xx.github.io/assets/profile.png" alt="Armaan Shamsaasef" class="profile-img">
+      <img src="assets/profile.png" alt="Armaan Shamsaasef" class="profile-img">
     </div>
     <div class="hero-text">
       <span class="badge">San Diego State University Student</span>
