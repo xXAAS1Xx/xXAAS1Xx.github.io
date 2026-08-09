@@ -1,23 +1,23 @@
 ---
 layout: default
-title: "Armaan | SDSU MIS & CS Portfolio"
+title: "Armaan Shamsaasef | San Diego State University | MIS Major & CS Minor"
 ---
 
 <header class="hero">
   <div class="hero-content">
     <span class="badge">San Diego State University</span>
     <h1>Management Information Systems <span class="accent-text">Major</span></h1>
-    <p class="subtitle">Computer Science Minor | Cloud & Cybersecurity Focus</p>
-    <div class="code-terminal">
-      <p><span class="code-keyword">const</span> student = {</p>
-      <p class="indent"><span class="code-prop">name</span>: <span class="code-string">'Armaan'</span>,</p>
-      <p class="indent"><span class="code-prop">university</span>: <span class="code-string">'SDSU'</span>,</p>
-      <p class="indent"><span class="code-prop">focus</span>: [<span class="code-string">'Systems Analysis'</span>, <span class="code-string">'Cloud Security'</span>, <span class="code-string">'Esports Infrastructure'</span>],</p>
-      <p class="indent"><span class="code-prop">status</span>: <span class="code-string">'Building scalable digital solutions'</span></p>
-      <p>};</p>
+    <p class="subtitle">Computer Science Minor | Cloud Architecture & Cybersecurity Focus</p>
+    
+    <div class="hero-summary">
+      <p>
+        MIS Student at San Diego State University combining business strategy, database architecture, and computer science fundamentals. Focused on scalable enterprise solutions, cloud security, and systems optimization.
+      </p>
     </div>
+
     <div class="hero-buttons">
       <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#skills" class="btn-secondary">Technical Skills</a>
     </div>
   </div>
 </header>
@@ -26,7 +26,7 @@ title: "Armaan | SDSU MIS & CS Portfolio"
   <div class="container">
     <h2 class="section-title">Bridging <span class="scarlet">Business</span> & <span class="cyan">Technology</span></h2>
     <p class="section-desc">
-      Combining business strategy, database systems, and computer science fundamentals to design secure cloud architectures and optimize enterprise workflows.
+      Applying business analytics, infrastructure planning, and software development to optimize systems and implement secure cloud environments.
     </p>
   </div>
 </section>
