@@ -19,11 +19,11 @@ permalink: /certifications/
         <div class="cert-header">
           <span class="project-tag">Google</span>
           <h3>Cybersecurity Certificate</h3>
-          <span class="cert-date">Completed January 2025[cite: 1]</span>
+          <span class="cert-date">Completed January 2025</span>
         </div>
-        <p>Comprehensive 8-course series on Coursera covering security analysis, threat mitigation, and defense operations[cite: 1].</p>
+        <p>Comprehensive 8-course series on Coursera covering security analysis, threat mitigation, and defense operations.</p>
         <ul>
-          <li>Qualifications: Cybersecurity Analyst, Security Analyst, SOC Analyst, IT Security Analyst[cite: 1]</li>
+          <li>Qualifications: Cybersecurity Analyst, Security Analyst, SOC Analyst, IT Security Analyst</li>
         </ul>
       </div>
 
@@ -31,7 +31,7 @@ permalink: /certifications/
         <div class="cert-header">
           <span class="project-tag">Google</span>
           <h3>Get Started with Python</h3>
-          <span class="cert-date">Completed January 2025[cite: 1]</span>
+          <span class="cert-date">Completed January 2025</span>
         </div>
         <p>Second course in Google Advanced Data Analytics program focusing on Python for data analysis[cite: 1].</p>
         <ul>
@@ -44,12 +44,12 @@ permalink: /certifications/
         <div class="cert-header">
           <span class="project-tag">Google</span>
           <h3>Deep Learning Specialization</h3>
-          <span class="cert-date">Completed March 2025[cite: 1]</span>
+          <span class="cert-date">Completed March 2025</span>
         </div>
-        <p>Expertise in building and training deep neural networks (CNNs and RNNs) using TensorFlow and Hugging Face[cite: 1].</p>
+        <p>Expertise in building and training deep neural networks (CNNs and RNNs) using TensorFlow and Hugging Face.</p>
         <ul>
-          <li>Applied to image recognition, NLP, and art generation[cite: 1]</li>
-          <li>Optimization algorithms, variance analysis, and key architecture techniques[cite: 1]</li>
+          <li>Applied to image recognition, NLP, and art generation</li>
+          <li>Optimization algorithms, variance analysis, and key architecture techniques</li>
         </ul>
       </div>
 
