@@ -5,34 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <!-- Dynamic Zooming Cyber Canvas -->
+  <div class="cyber-viewport">
+    <div id="cyber-bg" class="cyber-grid-layer"></div>
+    <div class="cyber-glow-overlay"></div>
+  </div>
+
   <nav class="navbar">
     <div class="nav-container">
-      <a href="{{ '/' | relative_url }}" class="logo">
-        <img src="{{ '/assets/images/sdsu-pennant.png' | blob:https://gemini.google.com/a7c97f1e-997e-46fc-8517-31d28e24a8e9 }}" alt="SDSU Logo" class="nav-sdsu-logo">
-        <span class="scarlet">Armaan Shamsaasef </span>
+      <a href="/" class="logo">
+        <img src="/assets/images/sdsu-pennant.png" alt="SDSU Logo" class="nav-sdsu-logo">
+        <span class="scarlet">Armaan</span> // MIS & CS
       </a>
       <ul class="nav-links">
-        <li><a href="{{ '/' | relative_url }}">About</a></li>
-        <li><a href="{{ '/skills/' | relative_url }}">Skills</a></li>
-        <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-        <li><a href="{{ '/certifications/' | relative_url }}">Certifications</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/skills/">Skills</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/certifications/">Certifications</a></li>
       </ul>
     </div>
   </nav>
 
-  <main>
+  <main class="content-wrapper">
     {{ content }}
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; {{ 'now' | date: "%Y" }} Armaan Shamsaasef</p>
+      <p>&copy; {{ 'now' | date: "%Y" }} Armaan Shamsaasef — San Diego State University</p>
     </div>
   </footer>
+
+  <!-- Scroll-reactive Zoom Controller -->
+  <script>
+    const cyberBg = document.getElementById('cyber-bg');
+    window.addEventListener('scroll', () => {
+      const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollFraction = Math.min(scrollY / (maxScroll || 1), 1);
+      
+      // Zooms scale from 1.0 to 1.45 and subtly shifts the focal point
+      const scaleVal = 1 + (scrollFraction * 0.45);
+      const translateY = scrollFraction * 40;
+      
+      cyberBg.style.transform = `scale(${scaleVal}) translateY(-${translateY}px)`;
+    }, { passive: true });
+  </script>
 
 </body>
 </html>
